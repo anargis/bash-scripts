@@ -37,6 +37,8 @@ A handy toolbox, learning resource, and automation snippet bank — built for **
 
 `sensors.sh` - Get CPU temperature and watch it every 2 seconds
 
+`monitoring-domain.sh` - Monitor a domain's availability and response time every 3 seconds 
+
 ---
 
 ## How to Use
