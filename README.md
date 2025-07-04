@@ -27,6 +27,7 @@ A handy toolbox, learning resource, and automation snippet bank — built for **
 
 `sublist3r.sh` - Get subdomains for a domain
 
+`traceroute.sh` - 
 ---
 
 ## How to Use
