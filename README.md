@@ -21,6 +21,8 @@ A handy toolbox, learning resource, and automation snippet bank — built for **
 
 `torsocks.sh` - Get public ip and tor ip
 
+`proxychains.sh` - Get public ip and tor ip
+
 `nmap.sh` - Performs a full TCP port scan with OS detection, service/version info, traceroute, and advanced scripts to identify vulnerabilities, misconfigurations, malware traces, and authentication mechanisms.
 
 ---
