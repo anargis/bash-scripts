@@ -17,9 +17,11 @@ A handy toolbox, learning resource, and automation snippet bank — built for **
 ## Example
 `ssl-expiry.sh` - Shows SSL certificate issuer and expiry date
 
-`whatweb.sh` - WhatWeb - Next generation Web scanner. Identify technologies used by websites.
+`whatweb.sh` - Identifies technologies used by the target website—including server, CMS, frameworks, analytics, and more—with verbose output for detailed plugin results.
 
 `torsocks.sh` - Get public ip and tor ip
+
+`nmap.sh` - Performs a full TCP port scan with OS detection, service/version info, traceroute, and advanced scripts to identify vulnerabilities, misconfigurations, malware traces, and authentication mechanisms.
 
 ---
 
