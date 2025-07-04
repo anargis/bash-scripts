@@ -15,7 +15,7 @@ A handy toolbox, learning resource, and automation snippet bank — built for **
 ---
 
 ## Example
-`ssl-expiry.sh` - Shows SSL certificate issuer and expiry date
+`ssl-expiry.sh` - Get SSL certificate issuer and expiry date for a given domain
 
 `whatweb.sh` - Identifies technologies used by the target website—including server, CMS, frameworks, analytics, and more—with verbose output for detailed plugin results.
 
