@@ -1,7 +1,6 @@
 #!/bin/bash
 # Get DNS information
-# Pass the domain as an argument
 # Usage: 
 # chmod +x dig.sh
-# ./dig.sh example.com
+# ./dig.sh <domain>
 dig "$1" ANY +trace +dnssec 
