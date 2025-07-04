@@ -19,6 +19,8 @@ A handy toolbox, learning resource, and automation snippet bank — built for **
 
 `whatweb.sh` - WhatWeb - Next generation Web scanner. Identify technologies used by websites.
 
+`torsocks.sh` - Get public ip and tor ip
+
 ---
 
 ## How to Use
