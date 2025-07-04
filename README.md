@@ -15,7 +15,8 @@ A handy toolbox, learning resource, and automation snippet bank — built for **
 ---
 
 ## Example
-`ssl-expiry.sh`        | Shows SSL certificate issuer and expiry date
+`ssl-expiry.sh` - Shows SSL certificate issuer and expiry date
+`whatweb.sh` - WhatWeb - Next generation Web scanner. Identify technologies used by websites.
 
 ---
 
@@ -23,5 +24,5 @@ A handy toolbox, learning resource, and automation snippet bank — built for **
 
 ```
 chmod +x *.sh
-./ssl-expiry.sh
+./script-name.sh
 ```

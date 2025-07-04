@@ -3,4 +3,5 @@
 # Usage: 
 # chmod +x whatweb.sh
 # ./whatweb.sh example.com
-sudo apt install -y whatweb && whatweb "$1"
+whatweb -v "$1"
+
