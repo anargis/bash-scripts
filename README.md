@@ -19,11 +19,11 @@ A handy toolbox, learning resource, and automation snippet bank — built for **
 
 `whatweb.sh` - Identifies technologies used by the target website—including server, CMS, frameworks, analytics, and more—with verbose output for detailed plugin results.
 
-`torsocks.sh` - Get public ip and tor ip
+`torsocks.sh` - Get public ip and tor ip using torsocks
 
-`proxychains.sh` - Get public ip and tor ip
+`proxychains.sh` - Get public ip and tor ip using proxychains
 
-`nmap.sh` - Performs a full TCP port scan with OS detection, service/version info, traceroute, and advanced scripts to identify vulnerabilities, misconfigurations, malware traces, and authentication mechanisms.
+`nmap.sh` - Performs an aggressive Nmap scan (-A) on the target with faster timing (-T4), enabling OS detection, version detection, script scanning, and traceroute.
 
 `sublist3r.sh` - Get subdomains for a domain
 

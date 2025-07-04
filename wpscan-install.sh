@@ -1,5 +1,5 @@
 #!/bin/bash
-# Install WPScan
+# Install wpscan, WordPress Security Scanner
 # Usage:
 # chmod +x install-wpscan.sh
 # ./install-wpscan.sh

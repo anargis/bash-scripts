@@ -1,5 +1,5 @@
 #!/bin/bash
-# Get technologies used by the target website
+# Identifies technologies used by the target website—including server, CMS, frameworks, analytics, and more—with verbose output for detailed plugin results.
 # Pass the domain as an argument
 # Usage: 
 # chmod +x whatweb.sh
