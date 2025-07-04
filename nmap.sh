@@ -3,4 +3,4 @@
 # Usage: 
 # chmod +x nmap.sh
 # ./nmap.sh example.com
-nmap -A -T4 -p- "$1"
+nmap -A -T4 "$1"

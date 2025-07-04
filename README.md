@@ -29,6 +29,15 @@ A handy toolbox, learning resource, and automation snippet bank — built for **
 
 `traceroute.sh` - Print the route packets trace to network host
 
+`dig.sh` - Get DNS information
+
+`wpscan-install.sh` - Install wpscan, WordPress Security Scanner
+
+`wpscan.sh` - Performs an aggressive WordPress security scan on the target URL, enumerating users, all plugins/themes, backup files, and exports, using a random user-agent and API token, while forcing detection and skipping TLS checks.
+
+
+
+
 ---
 
 ## How to Use
