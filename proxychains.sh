@@ -1,4 +1,5 @@
 #!/bin/bash
+# Get public IP and Tor IP using proxychains
 # Pass the domain as an argument
 # Usage: 
 # chmod +x proxychains.sh

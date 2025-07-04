@@ -25,6 +25,8 @@ A handy toolbox, learning resource, and automation snippet bank — built for **
 
 `nmap.sh` - Performs a full TCP port scan with OS detection, service/version info, traceroute, and advanced scripts to identify vulnerabilities, misconfigurations, malware traces, and authentication mechanisms.
 
+`sublist3r.sh` - Get subdomains for a domain
+
 ---
 
 ## How to Use

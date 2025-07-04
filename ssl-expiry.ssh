@@ -1,4 +1,5 @@
 #!/bin/bash
+# Get SSL certificate issuer and expiry date
 # Pass the domain as an argument
 # Usage: 
 # chmod +x ssl-expiry.sh
