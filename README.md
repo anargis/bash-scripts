@@ -37,8 +37,6 @@ A handy toolbox, learning resource, and automation snippet bank — built for **
 
 `sensors.sh` - Get CPU temperature and watch it every 2 seconds
 
-
-
 ---
 
 ## How to Use
