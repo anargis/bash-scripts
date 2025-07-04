@@ -1,0 +1,6 @@
+#!/bin/bash
+# Pass the domain as an argument
+# Usage: 
+# chmod +x ssl-expiry.sh
+# ./ssl-expiry.sh example.com
+echo | openssl s_client -connect "$1:443" 2>/dev/null | openssl x509 -noout -issuer -enddate
