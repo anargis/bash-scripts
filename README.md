@@ -47,6 +47,8 @@ A handy toolbox, learning resource, and automation snippet bank — built for **
 
 [bbc-news.sh](https://github.com/anargis/one-line-command/blob/main/bbc-news.sh) - Fetches the latest BBC News headlines and their links from the RSS feed
 
+[list-wp-plugin-versions.sh](https://github.com/anargis/one-line-command/blob/main/list-wp-plugin-versions.sh) - Fetches and lists all version tags available for a specified WordPress plugin from the WordPress.org Subversion (SVN) repository.
+
 ---
 
 ## How to Use
