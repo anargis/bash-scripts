@@ -15,31 +15,31 @@ A handy toolbox, learning resource, and automation snippet bank — built for **
 ---
 
 ## Example
-`ssl-expiry.sh` - Get SSL certificate issuer and expiry date for a given domain
+[ssl-expiry.sh](https://github.com/anargis/one-line-command/blob/main/ssl-expiry.ssh) - Get SSL certificate issuer and expiry date for a given domain
 
-`whatweb.sh` - Identifies technologies used by the target website—including server, CMS, frameworks, analytics, and more—with verbose output for detailed plugin results.
+[whatweb.sh](https://github.com/anargis/one-line-command/blob/main/whatweb.sh) - Identifies technologies used by the target website—including server, CMS, frameworks, analytics, and more—with verbose output for detailed plugin results.
 
-`torsocks.sh` - Get public ip and tor ip using torsocks
+[torsocks.sh](https://github.com/anargis/one-line-command/blob/main/torsocks.sh) - Get public ip and tor ip using torsocks
 
-`proxychains.sh` - Get public ip and tor ip using proxychains
+[proxychains.sh](https://github.com/anargis/one-line-command/blob/main/proxychains.sh) - Get public ip and tor ip using proxychains
 
-`nmap.sh` - Performs an aggressive Nmap scan (-A) on the target with faster timing (-T4), enabling OS detection, version detection, script scanning, and traceroute.
+[nmap.sh](https://github.com/anargis/one-line-command/blob/main/nmap.sh) - Performs an aggressive Nmap scan (-A) on the target with faster timing (-T4), enabling OS detection, version detection, script scanning, and traceroute.
 
-`sublist3r.sh` - Get subdomains for a domain
+[sublist3r.sh](https://github.com/anargis/one-line-command/blob/main/sublist3r.sh) - Get subdomains for a domain
 
-`traceroute.sh` - Print the route packets trace to network host
+[traceroute.sh](https://github.com/anargis/one-line-command/blob/main/traceroute.sh) - Print the route packets trace to network host
 
-`dig.sh` - Get DNS information
+[dig.sh](https://github.com/anargis/one-line-command/blob/main/dig.sh) - Get DNS information
 
-`wpscan-install.sh` - Install wpscan, WordPress Security Scanner
+[wpscan-install.sh](https://github.com/anargis/one-line-command/blob/main/wpscan-install.sh) - Install wpscan, WordPress Security Scanner
 
-`wpscan.sh` - Performs an aggressive WordPress security scan on the target URL, enumerating users, all plugins/themes, backup files, and exports, using a random user-agent and API token, while forcing detection and skipping TLS checks.
+[wpscan.sh](https://github.com/anargis/one-line-command/blob/main/wpscan.sh) - Performs an aggressive WordPress security scan on the target URL, enumerating users, all plugins/themes, backup files, and exports, using a random user-agent and API token, while forcing detection and skipping TLS checks.
 
-`sensors.sh` - Get CPU temperature and watch it every 2 seconds
+[sensors.sh](https://github.com/anargis/one-line-command/blob/main/sensors.sh) - Get CPU temperature and watch it every 2 seconds
 
-`monitoring-domain.sh` - Monitor a domain's availability and response time every 3 seconds 
+[monitoring-domain.sh](https://github.com/anargis/one-line-command/blob/main/monitoring-domain.sh) - Monitor a domain's availability and response time every 3 seconds 
 
-`wpcli-install.sh` - Installs WP-CLI (WordPress Command Line Interface) on your system and verifies the installation.
+[wpcli-install.sh](https://github.com/anargis/one-line-command/blob/main/wpcli-install.sh) - Installs WP-CLI (WordPress Command Line Interface) on your system and verifies the installation.
 
 ---
 
