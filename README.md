@@ -41,6 +41,8 @@ A handy toolbox, learning resource, and automation snippet bank — built for **
 
 [wpcli-install.sh](https://github.com/anargis/one-line-command/blob/main/wpcli-install.sh) - Installs WP-CLI (WordPress Command Line Interface) on your system and verifies the installation.
 
+[play-youtube-audio.sh](https://github.com/anargis/one-line-command/blob/main/play-youtube-audio.sh) - Streams the best audio from a YouTube video directly using mplayer. 
+
 ---
 
 ## How to Use
