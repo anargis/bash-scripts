@@ -43,6 +43,8 @@ A handy toolbox, learning resource, and automation snippet bank — built for **
 
 [play-youtube-audio.sh](https://github.com/anargis/one-line-command/blob/main/play-youtube-audio.sh) - Streams the best audio from a YouTube video directly using mplayer. 
 
+[weather.sh](https://github.com/anargis/one-line-command/blob/main/weather.sh) - Fetches a concise one-line weather summary for the specified city using wttr.in.
+
 ---
 
 ## How to Use
