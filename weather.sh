@@ -6,7 +6,7 @@
 #   ./weather.sh <city>
 #
 # curl
-#   → Command-line tool for transferring data with URLs (HTTP request)
+#   Command-line tool for transferring data with URLs (HTTP request)
 #
 # wttr.in/"$1"?format=3
 #   - Queries the wttr.in weather service for the city name passed as the first argument ($1)
