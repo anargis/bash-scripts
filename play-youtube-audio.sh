@@ -5,7 +5,9 @@
 #
 # Usage:
 #   chmod +x play-youtube-audio.sh
-#   ./play-youtube-audio.sh <VIDEO_URL or VIDEO_ID>
+#   ./play-youtube-audio.sh "<VIDEO_URL or VIDEO_ID>"
+#
+# IMPORTANT: add double quotes around the URL or ID to handle special characters.
 #
 # echo "$1" | sed -n 's/.*v=\([^&]*\).*/https:\/\/www.youtube.com\/watch?v=\1/p'
 #   - echo "$1"
