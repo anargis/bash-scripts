@@ -1,4 +1,5 @@
 #!/bin/bash
+#
 # Get SSL certificate issuer and expiry date for a given domain.
 #
 # Usage:

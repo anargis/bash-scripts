@@ -1,9 +1,11 @@
 #!/bin/bash
+#
 # Monitor a domain's availability and response time every 3 seconds.
+#
 # Usage:
 # chmod +x monitoring-domain.sh
 # ./monitoring-domain.sh <domain>
-
+#
 # watch                  – Repeats the command at a fixed interval
 # -n 3                   – Interval of 3 seconds
 # curl                   – Performs an HTTP request

@@ -1,4 +1,5 @@
 #!/bin/bash
+#
 # Performs an aggressive WordPress security scan on the target URL, 
 # enumerating users, all plugins/themes, backup files, and exports,
 # using a random user-agent and API token, while forcing detection and skipping TLS checks.

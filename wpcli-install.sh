@@ -1,4 +1,5 @@
 #!/bin/bash
+#
 # Installs WP-CLI (WordPress Command Line Interface) on your system and verifies the installation.
 #
 # Usage:
