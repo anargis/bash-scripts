@@ -45,6 +45,8 @@ A handy toolbox, learning resource, and automation snippet bank — built for **
 
 [weather.sh](https://github.com/anargis/one-line-command/blob/main/weather.sh) - Fetches a concise one-line weather summary for the specified city using wttr.in.
 
+[bbc-news.sh](https://github.com/anargis/one-line-command/blob/main/bbc-news.sh) - Fetches the latest BBC News headlines and their links from the RSS feed
+
 ---
 
 ## How to Use
