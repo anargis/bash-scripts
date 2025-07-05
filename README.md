@@ -39,6 +39,8 @@ A handy toolbox, learning resource, and automation snippet bank — built for **
 
 `monitoring-domain.sh` - Monitor a domain's availability and response time every 3 seconds 
 
+`wpcli-install.sh` - Installs WP-CLI (WordPress Command Line Interface) on your system and verifies the installation.
+
 ---
 
 ## How to Use
