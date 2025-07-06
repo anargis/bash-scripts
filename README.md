@@ -51,6 +51,8 @@ A handy toolbox, learning resource, and automation snippet bank — built for **
 
 [find-largest-files-and-dir.sh](https://github.com/anargis/one-line-command/blob/main/find-largest-files-and-dir.sh) - Displays the top 20 largest files and directories
 
+[export-db.sh](https://github.com/anargis/one-line-command/blob/main/export-db.sh) - Export a full MySQL database backup with all options.
+
 ---
 
 ## How to Use
