@@ -1,26 +1,17 @@
 #!/bin/bash
 #
-# Lists the 20 largest files within a given directory (e.g., /home)
+# Displays the top 20 largest files and directories
 #
 # Usage:
-#   chmod +x find-largest-files.sh
-#   ./find-largest-files.sh <directory>
+#   chmod +x largest-items.sh
+#   ./largest-items.sh /path/to/scan
 #
-# find "$1" -type f -exec du -h {} +
-#   - find "$1"                    Searches in the directory passed as the first argument ($1)
-#   - -type f                      Limits the search to regular files only (not directories)
-#   - -exec du -h {} +             For each file found, run `du -h`:
-#         du                       Disk usage tool
-#         -h                       Human-readable sizes (e.g., 1K, 234M, 2G)
-#         {} +                     Replaces `{}` with batches of file paths (more efficient than running one-by-one)
-#
-# | sort -rh
-#   - sort                         Sorts lines of text
-#   - -r                           Reverse order (largest to smallest)
-#   - -h                           Interprets human-readable sizes correctly (e.g., 2G > 100M)
-#
-# | head -n 20
-#   - head                         Displays only the first N lines
-#   - -n 20                        Shows the top 20 largest files
+# - find "$1"                        Scans all files and directories under the given path
+# - -exec du -h --apparent-size      For each found item, runs 'du' to report size
+# - --max-depth=0                    Ensures 'du' reports size only for the item itself, not its contents
+# - {} \;                            Placeholder for the current item found by 'find'
+# - 2>/dev/null                      Hides error messages (like permission denied)
+# - sort -hr                         Sorts the output in reverse order, human-readable (largest first)
+# - head -n 20                       Shows only the top 20 largest entries
 
-find "$1" -type f -exec du -h {} + | sort -rh | head -n 20
+find "$1" -exec du -h --apparent-size --max-depth=0 {} \; 2>/dev/null | sort -hr | head -n 20
