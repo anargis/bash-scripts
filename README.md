@@ -49,7 +49,7 @@ A handy toolbox, learning resource, and automation snippet bank — built for **
 
 [list-wp-plugin-versions.sh](https://github.com/anargis/one-line-command/blob/main/list-wp-plugin-versions.sh) - Fetches and lists all version tags available for a specified WordPress plugin from the WordPress.org Subversion (SVN) repository.
 
-[find-largest-files.sh](https://github.com/anargis/one-line-command/blob/main/find-largest-files.sh) - Displays the top 20 largest files and directories
+[find-largest-files-and-dir.sh](https://github.com/anargis/one-line-command/blob/main/find-largest-files-and-dir.sh) - Displays the top 20 largest files and directories
 
 ---
 

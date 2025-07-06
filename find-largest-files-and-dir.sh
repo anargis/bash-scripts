@@ -3,8 +3,8 @@
 # Displays the top 20 largest files and directories
 #
 # Usage:
-#   chmod +x largest-items.sh
-#   ./largest-items.sh /path/to/scan
+#   chmod +x find-largest-files-and-dir.sh
+#   ./find-largest-files-and-dir.sh /path/to/scan
 #
 # - find "$1"                        Scans all files and directories under the given path
 # - -exec du -h --apparent-size      For each found item, runs 'du' to report size
