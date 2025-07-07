@@ -55,6 +55,8 @@ A handy toolbox, learning resource, and automation snippet bank — built for **
 
 [sys-info.sh](https://github.com/anargis/one-line-command/blob/main/sys-info.sh) - Displays detailed system information, including OS, kernel, CPU, RAM, disk usage, motherboard, BIOS, and GPU.
 
+[list-apache-and-php-modules.sh](https://github.com/anargis/one-line-command/blob/list-apache-and-php-modules.sh) - Lists installed PHP and Apache modules
+
 ---
 
 ## How to Use
