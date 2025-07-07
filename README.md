@@ -53,6 +53,8 @@ A handy toolbox, learning resource, and automation snippet bank — built for **
 
 [export-db.sh](https://github.com/anargis/one-line-command/blob/main/export-db.sh) - Export a full MySQL database backup with all options.
 
+[sys-info.sh](https://github.com/anargis/one-line-command/blob/main/sys-info.sh) - Displays detailed system information, including OS, kernel, CPU, RAM, disk usage, motherboard, BIOS, and GPU.
+
 ---
 
 ## How to Use
