@@ -57,6 +57,7 @@ A handy toolbox, learning resource, and automation snippet bank — built for **
 
 [list-apache-and-php-modules.sh](https://github.com/anargis/one-line-command/blob/main/list-apache-and-php-modules.sh) - Lists installed PHP and Apache modules
 
+[newsboat.sh](https://github.com/anargis/one-line-command/blob/main/newsboat.sh) - Newsboat RSS Reader
 
 ---
 
