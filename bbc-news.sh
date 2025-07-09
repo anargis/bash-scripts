@@ -1,7 +1,8 @@
 #!/bin/bash
 #
+# Description:
 # Fetches the latest BBC News headlines and their links from the RSS feed,
-# displaying the top 10 news items (title + link) in the terminal.
+# displaying the top 20 news items (title + link) in the terminal.
 #
 # Usage:
 # chmod +x latest-news.sh
@@ -26,10 +27,17 @@
 #   }
 # '
 #
-# head -20                         Limit output to first 20 lines (10 items × 2 lines per item: title + link)
 
 curl -s https://feeds.bbci.co.uk/news/rss.xml | awk '
   /<item>/ {inside=1}
-  inside && /<title>/ {gsub(/<\/?title>/,""); title=$0}
-  inside && /<link>/ {gsub(/<\/?link>/,""); link=$0; print title "\n" link "\n"; inside=0}
-' | head -20
+  inside && /<title>/ {
+    gsub(/<\/?title>/,"")
+    title=$0
+  }
+  inside && /<link>/ {
+    gsub(/<\/?link>/,"")
+    link=$0
+    print title "\n" link "\n"
+    inside=0
+  }
+'

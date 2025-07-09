@@ -1,11 +1,12 @@
 #!/bin/bash
 #
+# Description:
 # Streams the best audio from a YouTube video directly using mplayer.
 # Pass a full YouTube URL or a video ID as the first argument.
 #
 # Usage:
-#   chmod +x play-youtube-audio.sh
-#   ./play-youtube-audio.sh "<VIDEO_URL or VIDEO_ID>"
+# chmod +x play-youtube-audio.sh
+# ./play-youtube-audio.sh "<VIDEO_URL or VIDEO_ID>"
 #
 # IMPORTANT: add double quotes around the URL or ID to handle special characters.
 #
@@ -47,4 +48,8 @@
 # 2>/dev/null
 #   - Redirects error output to /dev/null to keep the terminal output clean
 
-mplayer "$(yt-dlp -f bestaudio -g "$(echo "$1" | sed -n 's/.*v=\([^&]*\).*/https:\/\/www.youtube.com\/watch?v=\1/p')")" -ao alsa -af "volume=0.5" -cache 8192 -cache-min 10 2>/dev/null
+mplayer "$(yt-dlp -f bestaudio -g "$(echo "$1" | sed -n 's/.*v=\([^&]*\).*/https:\/\/www.youtube.com\/watch?v=\1/p')")" \
+  -ao alsa \
+  -af "volume=0.5" \
+  -cache 8192 \
+  -cache-min 10 2>/dev/null

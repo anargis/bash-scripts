@@ -1,6 +1,8 @@
 #!/bin/bash
 #
-# Identifies technologies used by the target website—including server, CMS, frameworks, analytics, and more—with verbose output for detailed plugin results.
+# Description:
+# Identifies technologies used by the target website—including server, CMS, frameworks, analytics, and more—with verbose output for 
+# detailed plugin results.
 #
 # Usage: 
 # chmod +x whatweb.sh

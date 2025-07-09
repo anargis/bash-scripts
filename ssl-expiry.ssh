@@ -1,18 +1,19 @@
 #!/bin/bash
 #
+# Description:
 # Get SSL certificate issuer and expiry date for a given domain.
 #
 # Usage:
 # chmod +x ssl-expiry.sh
 # ./ssl-expiry.sh <domain>
 
-# echo                             – Sends a blank input to the next command
-# openssl s_client                 – Initiates an SSL/TLS connection to the server
-#   -connect "$1:443"             – Connects to the given domain (passed as first argument) on port 443 (HTTPS)
-#   2>/dev/null                   – Suppresses stderr output (like certificate verification warnings)
-# | openssl x509                  – Extracts and decodes the server's X.509 certificate
-#   -noout                        – Prevents printing the full certificate content
-#   -issuer                       – Prints the certificate issuer (who signed it)
-#   -enddate                      – Prints the certificate expiration date
+# echo                    – Sends a blank input to the next command
+# openssl s_client        – Initiates an SSL/TLS connection to the server
+#   -connect "$1:443"     – Connects to the given domain (passed as first argument) on port 443 (HTTPS)
+#   2>/dev/null           – Suppresses stderr output (like certificate verification warnings)
+# | openssl x509          – Extracts and decodes the server's X.509 certificate
+#   -noout                – Prevents printing the full certificate content
+#   -issuer               – Prints the certificate issuer (who signed it)
+#   -enddate              – Prints the certificate expiration date
 
 echo | openssl s_client -connect "$1:443" 2>/dev/null | openssl x509 -noout -issuer -enddate

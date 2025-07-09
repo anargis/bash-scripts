@@ -1,5 +1,6 @@
 #!/bin/bash
 #
+# Description:
 # Monitor a domain's availability and response time every 3 seconds.
 #
 # Usage:

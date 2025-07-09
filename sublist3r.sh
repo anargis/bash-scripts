@@ -1,5 +1,6 @@
 #!/bin/bash
 #
+# Description:
 # Get subdomains for a domain
 #
 # Usage: 

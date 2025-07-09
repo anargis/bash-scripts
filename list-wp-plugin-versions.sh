@@ -1,11 +1,12 @@
 #!/bin/bash
 #
+# Description:
 # Fetches and lists all version tags available for a specified WordPress plugin
 # from the WordPress.org Subversion (SVN) repository.
 #
 # Usage:
-#   chmod +x list-wp-plugin-versions.sh
-#   ./list-wp-plugin-versions.sh <plugin-slug>
+# chmod +x list-wp-plugin-versions.sh
+# ./list-wp-plugin-versions.sh <plugin-slug>
 #
 # curl -s https://plugins.svn.wordpress.org/"$1"/tags/
 #   - curl                           Command-line tool to fetch content from URLs

@@ -1,9 +1,11 @@
 #!/bin/bash
+#
+# Description:
 # Fetches a concise one-line weather summary for the specified city using wttr.in.
 #
 # Usage:
-#   chmod +x weather.sh
-#   ./weather.sh <city>
+# chmod +x weather.sh
+# ./weather.sh <city>
 #
 # curl
 #   Command-line tool for transferring data with URLs (HTTP request)
