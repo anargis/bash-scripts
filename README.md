@@ -51,6 +51,8 @@ A curated collection of practical Bash scripts for penetration testing, automati
 
 [export-commit-versions.sh](https://github.com/anargis/one-line-command/blob/main/export-commit-versions.sh) - Clones a GitHub repository and exports files from each commit into separate folders, enabling access to all historical versions.of the project.
 
+[ddgr.sh](https://github.com/anargis/one-line-command/blob/main/ddgr.sh) - Search DuckDuckGo using the command line. 
+
 ---
 
 ## How to Use
