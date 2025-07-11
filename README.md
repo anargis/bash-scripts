@@ -53,6 +53,8 @@ A curated collection of practical Bash scripts for penetration testing, automati
 
 [ddgr.sh](https://github.com/anargis/one-line-command/blob/main/ddgr.sh) - Search DuckDuckGo using the command line. 
 
+[docker-install.sh](https://github.com/anargis/one-line-command/blob/main/docker-install.sh) - Install Docker
+
 ---
 
 ## How to Use
