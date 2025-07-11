@@ -55,6 +55,9 @@ A curated collection of practical Bash scripts for penetration testing, automati
 
 [docker-install.sh](https://github.com/anargis/one-line-command/blob/main/docker-install.sh) - Install Docker
 
+[set-dir-755-file-644.sh](https://github.com/anargis/one-line-command/blob/main/set-dir-755-file-644.sh) - Recursively sets directory permissions to 755 and file permissions to 644.
+ 
+
 ---
 
 ## How to Use
