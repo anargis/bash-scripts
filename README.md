@@ -59,6 +59,9 @@ A curated collection of practical Bash scripts for penetration testing, automati
  
 [uptime.sh](https://github.com/anargis/bash-scripts/blob/main/uptime.sh) - Uptime monitor for a given website URL.
 
+[trans.sh](https://github.com/anargis/bash-scripts/blob/main/trans.sh) - Command-line translator using Google Translate, Bing Translator, Yandex.Translate, etc.
+
+
 ---
 
 ## How to Use
