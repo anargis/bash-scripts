@@ -61,6 +61,7 @@ A curated collection of practical Bash scripts for penetration testing, automati
 
 [trans.sh](https://github.com/anargis/bash-scripts/blob/main/trans.sh) - Command-line translator using Google Translate, Bing Translator, Yandex.Translate, etc.
 
+[jpegoptim.sh](https://github.com/anargis/bash-scripts/blob/main/jpegoptim.sh) - Utility to optimize/compress JPEG/JFIF files.
 
 ---
 
