@@ -66,6 +66,7 @@ A curated collection of practical Bash scripts for penetration testing, automati
 [open-urls.sh](https://github.com/anargis/bash-scripts/blob/main/open-urls.sh) - Opens a predefined list of URLs in the default browser.
 
 [icdiff.sh](https://github.com/anargis/bash-scripts/blob/main/icdiff.sh) - Compare two files side-by-side with color highlighting
+
 ---
 
 ## How to Use
