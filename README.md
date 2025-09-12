@@ -63,6 +63,7 @@ A curated collection of practical Bash scripts for penetration testing, automati
 
 [jpegoptim.sh](https://github.com/anargis/bash-scripts/blob/main/jpegoptim.sh) - Utility to optimize/compress JPEG/JFIF files.
 
+[open-urls.sh](https://github.com/anargis/bash-scripts/blob/main/open-urls.sh) - Opens a predefined list of URLs in the default browser.
 ---
 
 ## How to Use
