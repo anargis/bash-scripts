@@ -71,6 +71,8 @@ A curated collection of practical Bash scripts for penetration testing, automati
 
 [check-add-defines-wp-config.sh](https://github.com/anargis/bash-scripts/blob/main/check-add-defines-wp-config.sh) - Check & Add defines in wp-config.php
 
+[backup-wordpress-files-and-db.sh](https://github.com/anargis/bash-scripts/blob/main/backup-wordpress-files-and-db.sh) - Backup WordPress files and database
+
 ---
 
 ## How to Use
