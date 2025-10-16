@@ -69,6 +69,8 @@ A curated collection of practical Bash scripts for penetration testing, automati
 
 [find-and-compress-images.sh](https://github.com/anargis/bash-scripts/blob/main/find-and-compress-images.sh) - Find - Count & Compress Large Images
 
+[check-add-defines-wp-config.sh](https://github.com/anargis/bash-scripts/blob/main/check-add-defines-wp-config.sh) - Check & Add defines in wp-config.php
+
 ---
 
 ## How to Use
