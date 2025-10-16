@@ -67,6 +67,8 @@ A curated collection of practical Bash scripts for penetration testing, automati
 
 [icdiff.sh](https://github.com/anargis/bash-scripts/blob/main/icdiff.sh) - Compare two files side-by-side with color highlighting
 
+[find-and-compress-images.sh](https://github.com/anargis/bash-scripts/blob/main/find-and-compress-images.sh) - Find - Count & Compress Large Images
+
 ---
 
 ## How to Use
