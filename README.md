@@ -73,6 +73,8 @@ A curated collection of practical Bash scripts for penetration testing, automati
 
 [backup-wordpress-files-and-db.sh](https://github.com/anargis/bash-scripts/blob/main/backup-wordpress-files-and-db.sh) - Backup WordPress files and database
 
+[check-perm.sh](https://github.com/anargis/bash-scripts/blob/main/check-perm.sh) - Check Directories and Files Permissions
+
 ---
 
 ## How to Use
