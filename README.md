@@ -73,6 +73,8 @@ A curated collection of practical Bash scripts for penetration testing, automati
 
 [backup-wordpress-files-and-db.sh](https://github.com/anargis/bash-scripts/blob/main/backup-wordpress-files-and-db.sh) - Backup WordPress files and database
 
+[monitor-php-workers.sh](https://github.com/anargis/bash-scripts/blob/main/monitor-php-workers.sh) - Monitor PHP Workers
+
 ---
 
 ## How to Use
